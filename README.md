@@ -1,4 +1,4 @@
 # ProductApplication
 
 Simple CRUD Product application created using LINQ 
-With Setup.exe
+With Setup.exe file
