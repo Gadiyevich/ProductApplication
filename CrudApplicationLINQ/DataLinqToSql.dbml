@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="OWNDatabase" Class="DataLinqToSqlDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-66AKHLU\SQLEXPRESS;Initial Catalog=OWNDatabase;Integrated Security=True" SettingsObjectName="CrudApplicationLINQ.Properties.Settings" SettingsPropertyName="OWNDatabaseConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PRODUCT" Member="PRODUCTs">
+    <Type Name="PRODUCT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="NAME" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="CATEGORY" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MADED_BY" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PRODUCT_DATE" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="PRICE" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
