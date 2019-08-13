@@ -140,7 +140,7 @@ namespace CrudApplicationLINQ
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Welcome to my Application. In this Application you can Create, Insert, Update and Delete any data you added. Good luck :)","INFORMATION",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            MessageBox.Show("Welcome to my Application. In this Application you can Show, Insert, Update and Delete any data you added. Good luck :)","INFORMATION",MessageBoxButtons.OK,MessageBoxIcon.Information);
 
             Insert.Visible = false;
             Delete.Visible = false;
